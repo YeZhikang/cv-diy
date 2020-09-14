@@ -1,0 +1,38 @@
+{
+  "name": "cv-diy",
+  "version": "1.0.0",
+  "description": "a cv-div project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-zent": "^2.2.2",
+    "classnames": "^2.2.6",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "immer": "^7.0.9",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.1",
+    "react-router-dom": "^5.2.0",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "zent": "^8.5.8"
+  }
+}
